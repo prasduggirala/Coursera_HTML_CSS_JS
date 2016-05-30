@@ -1,0 +1,94 @@
+body{
+    
+    color:#fff;
+    background-color:burlywood;
+    height:1800px;
+}
+#header-nav{
+    background-color:skyblue;
+    border-radius: 0;
+    border:0;
+    opacity: 0.9;
+    position:relative;
+}
+.navbar-brand{
+    width:200px;
+    height:75px;
+    font-size:32px;
+    padding:30px 30px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+.navbar-header span{
+    font-size: 12px;
+    font-style: italic;
+    color:white;
+}
+ #menu >p{
+  font-size: 42px;
+ margin:150px 150px 50px 150px;
+    
+  font: 400 100px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+    
+    
+#chicken,#beef, #sushi{
+    font-size:16px;
+    background-color: gainsboro;
+    border:2px solid black;
+    color:black;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+#menu-items span{
+    font-size: 24px;
+    background-color: black;
+    height: 40px;
+    width:25%;
+    color:white;
+    float:right;
+    text-align: center;
+    
+    }
+.navbar-toggle{
+    
+    position: absolute;
+    bottom:15px;
+    right: 40px;
+    float:right;
+    background-color:white;
+}
+.navbar-toggle:hover {
+    background-color: black;
+}
+
+#collapsable-nav{
+    
+    background-color:blanchedalmond;
+    text-align: center;
+    
+    
+}
+#collapsable-nav hr{
+    margin:0px;
+    color: black;
+    height:2px;
+    background-color: black;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    color:white;
+    font-size: 18px;
+     font: 100 25px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+   
+    }
