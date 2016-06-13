@@ -204,9 +204,9 @@ short name with something before inserting
       
       var homeHtmlToInsertIntoMainPage = insertProperty 
 
-(homeHtml, "randomCategoryShortName", "'" + 
+(homeHtml, "randomCategoryShortName", "'"+ 
 
-chosenCategoryShortName + "'");
+chosenCategoryShortName +"'");
       console.log('homeHtmlToInsertIntoMainPage: ');
       console.log(homeHtmlToInsertIntoMainPage);
 
